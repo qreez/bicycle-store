@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body onload="document.form.reset();">
+
+    <nav>
+        <ul class="main-nav">
+            <li><img class="logo" src="indexImg/logo.jpg" alt="logo"></li>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="rowery.html">Rowery</a></li>
+            <li><a href="akcesoria.html">Akcesoria</a></li>
+            <li><a href="wyprzedaze.html">Wyprzedaże</a></li>
+            <li class="push"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div class="cover">
+        <img src="indexImg/cover.jpg" alt="coverPhoto" height="100%" width="100%">
+        <div class="centered">Największy sklep rowerowy w Polsce</div>
+    </div>
+
+    <div class="featured">
+        <p>Kontakt</p>
+    </div>
+
+    <div class="container">
+        <form action="#" name="form">
+            <label for="fname">Imię</label>
+            <input type="text" id="fname" name="firstname" placeholder="Wpisz swoje imię..">
+
+            <label for="lname">Nazwisko</label>
+            <input type="text" id="lname" name="lastname" placeholder="Wpisz swoje nazwisko..">
+
+            <label for="subject">Temat</label>
+            <textarea id="subject" name="subject" placeholder="Napisz wiadomość.." style="height:200px"></textarea>
+
+            <input type="submit" value="Wyślij"
+                style="font-family: 'Russo One', sans-serif; font-size: 15px; color: black;">
+        </form>
+    </div>
+
+    <footer>
+        <p>Nazwa Firmy, Miejscowość, 12-345 Lokalizacja, Nr tel: (+48) 123-456-789</p>
+    </footer>
+
+</body>
+
+</html>

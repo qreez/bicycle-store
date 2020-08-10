@@ -85,7 +85,6 @@ a {
     padding: 0;
     background-color: rgb(240, 157, 34);
     border-radius: 0.2;
-    
 }
 
 p {
@@ -336,4 +335,41 @@ footer {
     color: #f1f1f1;
   }
 
+  @media screen and (max-width: 800px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  /* CONTACT FORM */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Russo One', sans-serif;
+  }
   
+  input[type=submit] {
+    background-color: rgb(240, 157, 34);
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(255, 176, 73);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+  }
